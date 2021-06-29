@@ -1,0 +1,18 @@
+body{
+    background-color: cornflowerblue;
+}
+.header1{
+    font-size: 30px;
+}
+
+canvas{
+    margin: 10px;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change{
+    from{box-shadow: 5px 5px 30px red;}
+    to{box-shadow: 5px 5px 30px yellow;}
+}
